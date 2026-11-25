@@ -21,4 +21,3 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy --name inspring-testseries-by-bantupalli --assets public --compatibility-date 2026-11-25
